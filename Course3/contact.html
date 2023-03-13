@@ -18,24 +18,23 @@
         <li class="nav-link"><a href="contact.html">Contact</a></li>
         <li class="nav-link"><a href="service.html">Service</a></li>
       </ul>
+    </nav>
+  </div>
 </header>
 
 <section>
-  <div class="contact">
-    <img src="images/logo2.png" alt="random logo">
-    <h2>Contact us</h2>
-    <form action="/action_page.php">
-      <fieldset>
-        <label for="fname">First name:</label>
-        <input type="text" id="fname" name="fname"><br><br>
-        <label for="lname">Last name:</label>
-        <input type="text" id="lname" name="lname"><br><br>
-        <label for="email">Email:</label>
-        <input type="text" id="email" name="email"><br><br>
-        <label for="msg">Message:</label>
-        <input type="text" id="msg" name="msg"><br><br>
-        <input type="submit" value="Submit">
-      </fieldset>
+  <img src="images/logo2.png" alt="random logo">
+  <div class="contact-section">
+    <h1>Contact Us</h1>
+    <div class="border"></div>
+    <form class="contact-form" action="index.html" method="post">
+       <input type="text" class="contact-form-text" placeholder="Your Name">
+       <input type="email" class="contact-form-text" placeholder="Your Email">
+       <input type="text" class="contact-form-text" placeholder="Your Phone">
+       <textarea class="contact-form-text" placeholder="Your Message"></textarea>
+       <input type="submit" class="contact-form-btn" value="Send">
+    </form>
+
     </form>
   </div>
 </section>
