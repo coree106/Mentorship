@@ -2,7 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: "monserrat", sans-serif;
+    font-family: Verdana, sans-serif;
 }
 
 body{
@@ -48,7 +48,6 @@ a{
 
 .index, .blog, .contact, .service{
     height: 720px;
-    margin-top: 40px;
 }
 
 table {
@@ -233,6 +232,40 @@ textarea.contact-form-text{
 
 .contact-form-btn:hover{
     background: darkcyan;
+}
+
+section{
+    justify-content: center;
+    align-items: center;
+}
+
+button{
+    position: relative;
+    outline: none;
+    background: red;
+    color: #fff;
+    padding:8px 35px;
+    border: none;
+    margin: 0 450px;
+    font-size: 1em;
+    border-radius: 100px;
+}
+
+.gray{
+    background: rgb(236, 236, 236);
+    color: #000;
+}
+
+.noti{
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    background: green;
+    color: #fff;
+    transform: translate(50%,-50%);
+    font-size: 16px;
 }
 
 @keyframes animate{
